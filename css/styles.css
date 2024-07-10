@@ -152,14 +152,12 @@ img{
    background-color: #2e2f42;
    padding-bottom: 188px;
    padding-top: 188px;
-   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)),
-    url(../images/people-office\ 1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
- }
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+   
+}
 
 
  
@@ -190,6 +188,7 @@ img{
    border: none;
    border-radius: 4px;
    margin: 0 auto;
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    
  }
 
@@ -459,13 +458,13 @@ font-weight: 400;
 
 
 .footer-title{
-font-weight: 400;
+  font-weight: 500;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
-   color: #434455;
+   color: #FFFFFF;
    display: block;
-   margin: 0;
+   margin-bottom: 16px;
 }
 
 
@@ -492,8 +491,11 @@ font-weight: 400;
 }
 
 
-.footer-wrap-link:hover
-.footer-wrap-link:focus{
+.footer-wrap-link:hover {
+   background-color: #31d0aa;
+}
+
+.footer-wrap-link:focus {
 background-color: #31d0aa;
 }
 
@@ -508,7 +510,10 @@ background-color: #31d0aa;
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
+.pictire{
+   width: 24px;
+   height: 24px;
+}
 
 .footer-text {
    color: #F4F4FD;
