@@ -102,8 +102,7 @@ img{
    position: relative;
 }
 
-.nav-link.current::before
-.nav-link.current::after{
+.nav-link.current::before{
   content: '';
   position: absolute;
   bottom: -1px;
@@ -112,6 +111,7 @@ img{
   height: 4px;
   border-radius: 2px;
 }
+
 
 
  .contacts{
@@ -156,7 +156,8 @@ img{
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+   background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/people-office\ 1.jpg);
    
 }
 
@@ -238,13 +239,6 @@ gap: 24px;
    width: calc((100% - 72px) / 4);
 }
 
-.icon{
-   border: 1px solid #8e8f99;
-   border-radius: 4px;
-   width: 264px;
-   height: 112px;
-   background: #f4f4fd;
-}
 
 .features-subtitle {
    font-weight: 500;
@@ -457,23 +451,29 @@ font-weight: 400;
 
 }
 
+.logo-part-accent{
+   color:#f4f4fd;
+}
+
 
 .footer-title{
-  font-weight: 500;
+   max-width: 264px;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
-   color: #FFFFFF;
-   display: block;
-   margin-bottom: 16px;
+   color: #f4f4fd;
+   padding-bottom: 16px;
 }
 
 
 
 .footer-media-list{
    display: flex;
-   gap: 16px;
+   gap: 24px;
 }
+
+.footer-icon-item{}
+
 
 .footer-media-link{
    width: 40px;
@@ -507,8 +507,8 @@ background-color: #31d0aa;
 
 .social-network-link{
    transition-property: background-color;
-      transition-duration: 250ms;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .pictire{
@@ -523,7 +523,11 @@ background-color: #31d0aa;
    max-width: 264px;
 }
 
-
+.footer-media{
+   display: block;
+   align-items: center;
+   justify-content: left;
+}
 
 
 .footer-logo {
