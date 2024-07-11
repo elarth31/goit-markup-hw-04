@@ -267,7 +267,6 @@ img{
 /* -------- FEATURES --------*/
 
 
-
 /* --------TEAM --------*/
 
 .team {
@@ -291,12 +290,15 @@ img{
    gap: 24px;
 }
 
+
 .team-item { 
    background: #fff;
    width: calc((100% - 72px) / 4);
    border-radius: 0px 0px 4px 4px;
    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
+
+
 
 .team-image-name {
    padding: 32px 16px;
@@ -311,6 +313,7 @@ img{
    gap: 24px;
    justify-content: center;
 }
+
 
 .social-network-link{
    display: flex;
@@ -327,11 +330,11 @@ img{
    fill: #F4F4FD;
 }
 
-.social-network-link:hover{
+.social-network-link:focus{
    background-color: #404bbf;
 }
 
-.social-network-link:focus{
+.social-network-link:hover{
    background-color: #404bbf;
 }
 
