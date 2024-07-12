@@ -313,7 +313,7 @@ img{
 }
 
 
-.social-network-link{
+.icon-link{
    display: flex;
    justify-content: center;
    align-items: center;
@@ -369,8 +369,6 @@ img{
    padding-bottom: 120px;
    flex-wrap: wrap;
 }
-
-
 
 .portfolio-title {
    font-weight: 700;
@@ -476,14 +474,9 @@ font-weight: 400;
    margin-right: 120px;
 }
 
-.footer-item{
-
-}
-
 .logo-part-accent{
    color:#f4f4fd;
 }
-
 
 .footer-title{
    font-weight: 500;
@@ -494,15 +487,10 @@ font-weight: 400;
    margin-bottom: 16px;
 }
 
-
-
 .footer-media-list{
    display: flex;
    gap: 16px;
 }
-
-.footer-icon-item{}
-
 
 .footer-media-link{
    width: 40px;
@@ -524,12 +512,13 @@ font-weight: 400;
 .icon-link:focus{
   background-color: #31d0aa; 
 }
-.media-icon{
+
+.pictire{
    fill: #f4f4fd
 }
 
 
-.social-network-link{
+.icon-link{
    transition-property: background-color;
    transition-duration: 250ms;
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
